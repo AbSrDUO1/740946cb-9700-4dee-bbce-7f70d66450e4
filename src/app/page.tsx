@@ -10,10 +10,7 @@ import FooterLogoEmphasisBackgroundGradient from '@/components/footer/FooterLogo
 export default function Home() {
   return (
     <SiteThemeProvider theme={{ styleVariant: "funAndTrendy", colorTemplate: 1, textAnimation: "slide" }}>
-      <NavbarBase logoSrc="/images/logo.svg" logoAlt="NovaToken logo" logoClassName="h-10" className="bg-transparent">
-        <span className="text-white">NovaToken</span>
-        <span className="text-sm text-white">Buy Nova</span>
-      </NavbarBase>
+      <NavbarBase logoSrc="/images/logo.svg" logoAlt="NovaToken logo" logoClassName="h-10" className="bg-transparent" />
       <div id="hero" data-section="hero" className="scroll-mt-24">
         <BillboardHero title="Welcome to NovaToken" subtitle="Your gateway to digital finance!" />
       </div>
