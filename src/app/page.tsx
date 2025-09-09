@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarBase from '@/components/navigation/NavbarBase';
 import BillboardHero from '@/components/sections/layouts/hero/BillboardHero';
@@ -24,7 +24,7 @@ export default function Home() {
         <HowToBuy3D title="How to Buy NovaToken" steps={[{ title: "Step 1", description: "Sign up for an account", image: "/images/placeholder1.avif", position: "left", isCenter: false }, { title: "Step 2", description: "Deposit funds", image: "/images/placeholder2.avif", position: "center", isCenter: true }, { title: "Step 3", description: "Purchase your tokens", image: "/images/placeholder3.avif", position: "right", isCenter: false }]} />
       </div>
       <div id="tokenomics" data-section="tokenomics" className="scroll-mt-24">
-        <PatternTokenomics title="Tokenomics Overview" description="Discover the utility and distribution of NovaToken." kpiItems={[{ value: "1M", description: "Total Supply", icon: "Shield" }, { value: "500k", description: "Liquidity", icon: "Users" }, { value: "20%", description: "Founders", icon: "Star" }]} />
+        <PatternTokenomics title="Tokenomics Overview" description="Discover the utility and distribution of NovaToken." kpiItems={[{ value: "1M", description: "Total Supply", icon: Shield }, { value: "500k", description: "Liquidity", icon: Users }, { value: "20%", description: "Founders", icon: Star }]} />
       </div>
       <div id="footer" data-section="footer" className="scroll-mt-24">
         <FooterLogoEmphasisBackgroundGradient logoSrc="/images/logo.svg" logoAlt="NovaToken logo" logoText="NovaToken" items={[{ label: "Privacy Policy", onClick: () => {} }, { label: "Terms of Service", onClick: () => {} }, { label: "Help", onClick: () => {} }]} className="text-white" gradientClassName="bg-gradient-to-r from-indigo-500 to-blue-500" gradientStyle={{ backgroundColor: "#1a1a1a" }} />
