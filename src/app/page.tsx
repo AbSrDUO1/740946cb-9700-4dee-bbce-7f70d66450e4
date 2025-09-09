@@ -6,6 +6,7 @@ import CtaAbout from '@/components/sections/layouts/about/CtaAbout';
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import PatternTokenomics from '@/components/sections/layouts/tokenomics/PatternTokenomics';
 import FooterLogoEmphasisBackgroundGradient from '@/components/footer/FooterLogoEmphasisBackgroundGradient';
+import { Shield, Users, Star } from 'lucide-react';
 
 export default function Home() {
   return (
